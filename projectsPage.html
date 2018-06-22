@@ -1,95 +1,105 @@
 
 <html>
-        <title>W3.CSS Template</title>
+        <title>STEAMGirls - Projects</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <body>
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-          <a href="#home" class="w3-bar-item w3-button" onclick=window.location.href='indexNew.html'><b>STEAMGirls</b></a>
-          <!-- Float links to the right. Hide them on small screens -->
-          <div class="w3-right w3-hide-small">
-            <a href="#about" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html'>About</a>
-            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-            <a href="#curriculum" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html'>Curriculum</a>
-            <a href="#enroll" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html'>Enroll!</a>
-            <a href="#involvement" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html'>How to Get Involved</a>
-            <a href="#donate" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html'>Donate</a>
-            <a href="#contact" class="w3-bar-item w3-button" onclick=window.location.href='contactPage.html'>Contact</a>
+ <!-- Navbar (sit on top) -->
+ <div class="w3-top">
+        <div class="w3-bar w3-#BD1D67 w3-wide w3-padding w3-card" style="background-color:#BD1D67;opacity: 0.96">
+          <a href="#home" class="w3-bar-item w3-button" onclick=window.location.href='indexNew.html'>
+              <img jsname="uLHQEd" class="SzDcob" width="100px" height="100px" src="WIT_LOGO_transp.png" aria-label="Photo - Square - Jun 21, 2018, 10:29:39 PM" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);">
+              <div style="font-size:45pt;color:white; float:right; padding-top: 9px;">STEAMGirls</div>
+          </a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html' style="color:white;font-size:15pt">About</a>
+                <a href="#projects" class="w3-bar-item w3-button" style="color:white;font-size:15pt">Projects</a>
+                <a href="#curriculum" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html' style="color:white;font-size:15pt">Curriculum</a>
+                <a href="#enroll" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html' style="color:white;font-size:15pt">Enroll!</a>
+                <a href="#involvement" class="w3-bar-item w3-button" onclick=window.location.href='aboutPage.html' style="color:white;font-size:15pt">How to Get Involved</a>
+                <a href="#contact" class="w3-bar-item w3-button" onclick=window.location.href='contactPage.html' style="color:white;font-size:15pt">Contact</a>
           </div>
         </div>
       </div>
-
-      
-<!-- Project Section -->
-<div class="w3-container w3-padding-32" id="projects">
+ 
+     
+ <!-- Project Section -->
+ <div class="w3-container w3-padding-32" id="projects" style="margin-top: 130px;">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-32"> Projects</h3>
       </div>
-    
+   
       <div class="w3-row-padding">
         <div class="w3-col l3 m6 w3-margin-bottom" style="width:100%">
-          <div class="w3-display-container" style="float:left;width:49%;">
-    
-          <div class="w3-display-topleft w3-black w3-padding">Isla Vista Youth Projects</div>
-    
-          <a href = "contactPage.html">
-              <script>
-                  function hover(element) {
-                   element.setAttribute('src', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1IeLvtLvRelDNXyJkCQgXYnpFFnCkoEy4PFfRYvYKLPGKKG2');
-                    }
-    
-                    function unhover(element) {
-                    element.setAttribute('src', 'https://www.w3schools.com/w3css/img_lights.jpg');
-                    }
-                </script>
-    
-            <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="House" style="width:100%;float:left" onmouseover="hover(this);" onmouseout="unhover(this);">
-          </a>
-    
+          <div class="w3-display-container" style="float:left;width:49%;height:220px;">
+   
+                <div class="w3-display-topleft w3-black w3-padding">Isla Vista Youth Projects</div>
+
+                <div class="w3-container" style="background-image:url('https://education.ucsb.edu/sites/default/files/styles/news/public/news/images/Isla_Vista_School.jpg?itok=bB37uD_K'); height:300px; background-repeat: no-repeat; background-size:cover; overflow:hidden;" onmouseover="hover(this);" onmouseout="unhover(this);" onclick="location.href='projectIVYP.html';">
+           
+                   <script>
+                       function hover(element) {
+           
+                         $(element).css('background-image','url("https://education.ucsb.edu/sites/default/files/styles/news/public/news/images/Isla_Vista_School.jpg?itok=bB37uD_K")');
+                        element.style.opacity = "0.5";
+                         }
+           
+                         function unhover(element) {
+                         $(element).css('background-image', 'url("https://education.ucsb.edu/sites/default/files/styles/news/public/news/images/Isla_Vista_School.jpg?itok=bB37uD_K")');
+                         element.style.opacity = "1";
+                         }
+                     </script>
+   
+   
         </div>
-        
-        
+        </div>
+   
+   
           <div class="w3-display-container" style="float:right;width:49%;">
-            <div class="w3-display-topleft w3-black w3-padding">El Camino Elementary School</div>
-              
-                 <a href = "contactPage.html">
-                    <script>
-                        function hover(element) {
-                         element.setAttribute('src', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1IeLvtLvRelDNXyJkCQgXYnpFFnCkoEy4PFfRYvYKLPGKKG2');
-                          }
-          
-                        function unhover(element) {
-                          element.setAttribute('src', 'https://www.w3schools.com/w3css/img_lights.jpg');
-                          }
-                      </script>
-          
-                    <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="House" style="width:100%;float:right" onmouseover="hover(this);" onmouseout="unhover(this);">
-                </a>
-    
+              <div class="w3-display-topleft w3-black w3-padding">El Camino Elementary School</div>
+   
+              <div class="w3-container" style="background-image:url('https://pbs.twimg.com/media/DHyoyq7VYAAn7I2.jpg'); height:300px; background-repeat: no-repeat; background-size:cover; overflow:hidden;" onmouseover="hover2(this);" onmouseout="unhover2(this);" onclick="location.href='projectEC.html';">
+
+                <script>
+                    function hover2(element) {
+        
+                      $(element).css('background-image','url("https://pbs.twimg.com/media/DHyoyq7VYAAn7I2.jpg")');
+                     element.style.opacity = "0.5";
+                      }
+        
+                      function unhover2(element) {
+                      $(element).css('background-image', 'url("https://pbs.twimg.com/media/DHyoyq7VYAAn7I2.jpg")');
+                      element.style.opacity = "1";
+                      }
+                  </script>
+        
+              </div>
+   
             </div>
           </div>
-        
+       
       </div>
-
+ 
       <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-16">
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-      
+        <p><a href="https://www.w3schools.com/w3css/default.asp" title="dphswomenintech@gmail.com" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+     
       <!-- Add Social Media Handle and Email-->
       <div>
           <a href= "https://www.instagram.com/?hl=en">
             <h3 class="w3-border-bottom w3-border-black w3-padding-8">
-                <img style="-webkit-user-select: none;cursor: zoom-in;" src="http://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png" width=30px height=30px>
+                <img style="-webkit-user-select: none;cursor: zoom-in; width:30px ;height:30px" src="http://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png">
             </h3>
-            
+           
           </a>
       </div>
-      
+     
       <!-- JavaScript Button Functionality-->
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      
+     
       </footer>
     </body>
     </html>
+ 
+ 
